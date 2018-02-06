@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto", Monospace;
+    color: #555;
+    background-color: #1d1b1b;
+}
+
+h1 {
+    color: #ffffffcc;
+}
+
+h4 {
+    color: #ffffffcc;
+}
+
+h3 {
+    font-family: "Roboto", Monospace;
+    color: #dd4545;
+}
+
+h5 {
+    font-family: "Roboto", Monospace;
+    color: #dd4545;
+}
+
+.smaller-image {
+    width: 20%;
+}
+
+.mail {
+    color: #dd4545;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+.navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    display: flex;
+    padding: .5rem 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343a40;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: 000;
+}
+
+.box {
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.boxtitle {
+    padding: 25px;
+    margin-top: 50px;
+}

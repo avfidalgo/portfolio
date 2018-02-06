@@ -1,190 +1,89 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
-
-
-
-<!-- CSS -->
-
-<style>
-  body {
-    font-family: "Roboto", Monospace;
-    color: #555;
-    background-color: #1d1b1b;
-  }
-
-  h1 {
-    color: #ffffffcc;
-  }
-
-  h4 {
-    color: #ffffffcc;
-  }
-
-  h3 {
-    font-family: "Roboto", Monospace;
-    color: #dd4545;
-  }
-
-  h5{
-    font-family: "Roboto", Monospace;
-    color: #dd4545;
-  }
-
-  .smaller-image {
-    width: 20%;
-  }
-
-  .mail {
-    color: #dd4545;
-  }
-
- 
-
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.bg-dark {
-  background-color: #343a40!important;
-}
-
-.navbar-expand-md {
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-}
-
-.navbar {
-  display: flex;
-  padding: .5rem 1rem;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #343a40;
-}
-
-li {
-    float: right;
-   
-}
-
-li a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: 000;
-}
-
-.box{
-  padding-bottom: 15px;
-  padding-top: 25px;
-
-}
-
-.boxtitle{
-  padding: 25px;
-  margin-top: 50px;
-}
-
-
-
-
-</style>
-
-
-<!-- HTML -->
-
 <html>
 
 <head>
-    <title>Andreia Fidalgo - Portfolio</title>
-    <meta name="description" content="My very own portfolio code by me">
-
+  <title>Andreia Fidalgo - Portfolio</title>
+  <meta name="description" content="My very own portfolio code by me">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-
   <header>
-     <nav class="navbar navbar-expand-md fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md fixed-top bg-dark">
       <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav">
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="#projects">Projects</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-          </div>
-        </nav>
+        <ul class="navbar-nav">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
-<main class="container-fluid">
-  <div class="container boxtitle">
-    <h1 class="text-center">Andreia Fidalgo</h1>
-    <h4 class="text-center">Environmental and Sustainability Engineer</h2>
-    <h5 class="text-center">Web developer wannabe</h5>
-  </div>
-<div class="container-fluid box" id="about">
-  <h3 class="box"> ABOUT </h3>
-  <p class="text-justify"> Environment and Sustainability Engineer currently learning how to program and previously working on sustainability in the
-    urban context. </p>
-  <p class="text-justify"> Until recently I worked as a project manager on a NGO, where I developed different projects within urban sustainability.
-    Currently I am learning to program and hopefully one day I will be able to apply my programming skills to promote a better
-    and more inclusive cities! </p>
-</div>
+  <main class="container-fluid">
+    <div class="container boxtitle">
+      <h1 class="text-center">Andreia Fidalgo</h1>
+      <h4 class="text-center">Environmental and Sustainability Engineer</h2>
+        <h5 class="text-center">Web developer wannabe</h5>
+    </div>
+    <div class="container-fluid box" id="about">
+      <h3 class="box"> ABOUT </h3>
+      <p class="text-justify"> Environment and Sustainability Engineer currently learning how to program and previously working on sustainability
+        in the urban context. </p>
+      <p class="text-justify"> Until recently I worked as a project manager on a NGO, where I developed different projects within urban sustainability.
+        Currently I am learning to program and hopefully one day I will be able to apply my programming skills to promote
+        a better and more inclusive cities! </p>
+    </div>
 
-<div class="container-fluid box" id="projects">
-  <h3 class="box"> PROJECTS </h3>
-  <p> Here you can see some of the projects I've been working lately: </p>
-  <a href="http://housingrefugees.ifhp.org/" target="blank">
-    <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/2000px-Blogger.svg.png"
-      alt="blog"> </a>
-  <a href="https://run.unl.pt/handle/10362/7562" target="blank">
-    <img class="smaller-image" src="https://c1.staticflickr.com/1/250/447109317_23a1c17330_b.jpg" alt="MSc thesis UNL"> </a>
-  <a href="http://projekter.aau.dk/projekter/en/studentthesis/towards-sustainability--modeling-the-danish-commuting-tax(e5e6f23d-9bf5-485d-b8ff-ed360e70bcff).html"
-    target="blank">
-    <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Location_map_Denmark_Copenhagen.png"
-      alt="MSc thesis AAU"> </a>
-  <a href="#" target="blank">
-    <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Australian_road_sign_-_dead_end.svg/2000px-Australian_road_sign_-_dead_end.svg.png"
-      alt="other projects"> </a>
-  <a href="#" target="blank">
-    <img class="smaller-image" src="https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg" alt="other projects"> </a>
-  <a href="#" target="blank">
-    <img class="smaller-image" src="https://static.pexels.com/photos/247932/pexels-photo-247932.jpeg" alt="other projects"> </a>
-</div>
+    <div class="container-fluid box" id="projects">
+      <h3 class="box"> PROJECTS </h3>
+      <p> Here you can see some of the projects I've been working lately: </p>
+      <a href="http://housingrefugees.ifhp.org/" target="blank">
+        <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/2000px-Blogger.svg.png"
+          alt="blog"> </a>
+      <a href="https://run.unl.pt/handle/10362/7562" target="blank">
+        <img class="smaller-image" src="https://c1.staticflickr.com/1/250/447109317_23a1c17330_b.jpg" alt="MSc thesis UNL"> </a>
+      <a href="http://projekter.aau.dk/projekter/en/studentthesis/towards-sustainability--modeling-the-danish-commuting-tax(e5e6f23d-9bf5-485d-b8ff-ed360e70bcff).html"
+        target="blank">
+        <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Location_map_Denmark_Copenhagen.png"
+          alt="MSc thesis AAU"> </a>
+      <a href="#" target="blank">
+        <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Australian_road_sign_-_dead_end.svg/2000px-Australian_road_sign_-_dead_end.svg.png"
+          alt="other projects"> </a>
+      <a href="#" target="blank">
+        <img class="smaller-image" src="https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg" alt="other projects"> </a>
+      <a href="#" target="blank">
+        <img class="smaller-image" src="https://static.pexels.com/photos/247932/pexels-photo-247932.jpeg" alt="other projects"> </a>
+    </div>
 
-<div class="container-fluid box" id="contact">
-  <h3 class="box">CONTACT</h3>
-  <p> You can
-    <a href="mailto:av.fidalgo@gmail.com">
-      <span class="mail"> email me </span>
-    </a> or find me in </p>
-  <div class="col-md-4" style="font-size:2em; color:#dd9b45">
-    <a href="https://www.linkedin.com/in/andreia-fidalgo/" target="blank">
-      <i class="fa fa-linkedin"></i>
-    </a>
-    <a href="https://www.freecodecamp.org/fcc81d1be80-cab2-441f-b529-b90d1230a27b" target="blank">
-      <i class="fa fa-free-code-camp"></i>
-    </a>
-    <a href="https://twitter.com/afidalgo88" target="blank">
-      <i class="fa fa-twitter"></i>
-    </a>
-  </div>
-</div>
-</main>
+    <div class="container-fluid box" id="contact">
+      <h3 class="box">CONTACT</h3>
+      <p> You can
+        <a href="mailto:av.fidalgo@gmail.com">
+          <span class="mail"> email me </span>
+        </a> or find me in </p>
+      <div class="col-md-4" style="font-size:2em; color:#dd9b45">
+        <a href="https://www.linkedin.com/in/andreia-fidalgo/" target="blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.freecodecamp.org/fcc81d1be80-cab2-441f-b529-b90d1230a27b" target="blank">
+          <i class="fa fa-free-code-camp"></i>
+        </a>
+        <a href="https://twitter.com/afidalgo88" target="blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </main>
 
 </body>
 
